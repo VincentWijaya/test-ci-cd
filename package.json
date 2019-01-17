@@ -1,0 +1,27 @@
+{
+  "name": "test-ci-cd",
+  "version": "1.0.0",
+  "description": "Test NodeJS CI/CD with unit testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentWijaya/test-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentWijaya/test-ci-cd/issues"
+  },
+  "homepage": "https://github.com/VincentWijaya/test-ci-cd#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
