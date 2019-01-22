@@ -14,7 +14,7 @@ describe('/', () => {
 
         body.should.be.a('object');
         body.message.should.equal('Hello world');
-        body.success.should.equal(true);
+        body.success.should.equal(false);
 
         done();
       })
